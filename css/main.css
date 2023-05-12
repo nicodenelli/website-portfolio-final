@@ -5,7 +5,7 @@ body {
 }
 
 #navbar {
-    background-color: #be3144;
+    background-color: #05f1f5;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@ li {
 }
 
 a {
-    color: white;
+    color: rgb(8, 8, 8);
     text-decoration: none;
     font-size: 1.5em;
     padding: 1rem 2rem;
@@ -56,7 +56,7 @@ h1 {
 }
 
 #welcome-section > p {
-    color: #be3144;
+    color: #91f505;
     font-size: 2rem;
     font-style: italic;
     font-weight: 100;
@@ -121,4 +121,33 @@ h2 {
     font-weight: 100;
     text-align: center;
     font-size: 1.5rem;
+}
+
+#contact-links {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 1rem 2rem;
+}
+
+#profile-link {
+    color: #91f505;
+}
+
+#github-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#linkedIn-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#email-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
