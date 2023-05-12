@@ -51,13 +51,27 @@ a:hover {
 
 h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
-#welcome-section > p {
+#name{
+    color: #05f1f5;
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#welcome-p1 {
     color: #91f505;
     font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#welcome-p2 {
+    color: rgb(215, 28, 84);
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
 }
@@ -66,12 +80,13 @@ h1 {
     margin: 0;
     padding: 8rem 2rem;
     text-align: center;
-    background-color: #45567d;
+    background-image: url("https://cutewallpaper.org/28/computer-software-engineer-wallpaper/software-77694-engineering-4b8f4-wallpapers-034e3-top-8b461-free-82ef2-software-1f43c-engineering-2ea56-backgrounds-432dc----wallpaperaccess.png");
+    background-size: cover;
 }
 
 h2 {
     font-size: 3.2rem;
-    color: white;
+    color: #91f505;
 }
 
 @media (max-width: 800px){
@@ -87,7 +102,7 @@ h2 {
 }
 
 .project-title {
-    color: white;
+    color: #91f505;
     width: 100%;
     background-color: #303841;
     margin: 0;
@@ -116,7 +131,7 @@ h2 {
 }
 
 #contact-p {
-    color: white;
+    color: rgb(215, 28, 84);
     font-style: italic;
     font-weight: 100;
     text-align: center;
