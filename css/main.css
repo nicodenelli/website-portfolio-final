@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    background-color: #456e7d;
+    background-color: #b307f2;
 }
 
 #welcome-section {
@@ -86,7 +86,7 @@ h1 {
 
 #projects {
     margin: 0;
-    padding: 8rem 2rem;
+    padding: 4rem 4rem;
     text-align: center;
     background-color: #000;
     background-image: linear-gradient(
@@ -97,19 +97,33 @@ h1 {
 }
 
 .projects {
+    padding: 6rem 4rem;
     font-size: 3.2rem;
-    color: #91f505;
+    color: #05f1f5;
 }
 
 h2 {
     font-size: 3.2rem;
-    color: #91f505;
+    color: #05f1f5;
 }
 
 @media (max-width: 800px){
     h2 {
         font-size: 2.5rem;
     }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
 }
 
 .project-img {
@@ -121,9 +135,7 @@ h2 {
 .project-title {
     color: #91f505;
     width: 100%;
-    background-color: #303841;
     margin: 0;
-    padding: 2rem 0;
 }
 
 .projects-grid {
@@ -153,7 +165,7 @@ h2 {
 }
 
 #contact-p {
-    color: rgb(247, 9, 211);;
+    color: rgb(247, 9, 211);
     font-style: italic;
     font-weight: 100;
     text-align: center;
@@ -205,7 +217,7 @@ h2 {
 }
 
 #about-p1 {
-    color: #05f1f5;
+    color: #91f505;
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
@@ -213,14 +225,14 @@ h2 {
 }
 
 #skills-p1 {
-    color: #05f1f5;
+    color: #91f505;
     font-size: 2rem;
     font-style: italic;
     font-weight: 100;
 }
 
 #skills-p2 {
-    color: rgb(215, 28, 84);
+    color: rgb(247, 9, 211);
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
