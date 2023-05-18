@@ -72,14 +72,14 @@ h1 {
 
 #welcome-p1 {
     color: #91f505;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-style: italic;
     font-weight: 100;
 }
 
 #welcome-p2 {
-    color: rgb(215, 28, 84);
-    font-size: 1.5rem;
+    color: rgb(247, 9, 211);
+    font-size: 1.8rem;
     font-style: italic;
     font-weight: 100;
 }
@@ -153,11 +153,11 @@ h2 {
 }
 
 #contact-p {
-    color: rgb(215, 28, 84);
+    color: rgb(247, 9, 211);;
     font-style: italic;
     font-weight: 100;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 #contact-links {
