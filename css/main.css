@@ -46,7 +46,7 @@ a {
 
 }
 
-a:hover {
+.nav:hover {
     background-color: #3a3d40;
 }
 
@@ -155,7 +155,7 @@ h2 {
     margin: 0;
 }
 
-.projects-grid {
+.projects-card {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -163,13 +163,35 @@ h2 {
     align-items: center;
     background-color: #05f1f5;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-    margin-bottom: 60rem;
+    margin-bottom: 2rem;
+    max-width: 60rem;
     padding: 2rem;
     box-sizing: border-box;
     color: #202020;
     font-weight: 300;
     margin: 0;
+}
 
+.project-content {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: #202020;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.project-description {
+    font-size: 2rem;
+    width: 50%;
+    box-sizing: border-box;
+    color: #202020;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 #contact {
