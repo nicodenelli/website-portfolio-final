@@ -144,13 +144,14 @@ h2 {
 }
 
 .project-img {
-    height: calc(100% - 4.8rem);
-    width: 100%;
-    object-fit: cover;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .project-title {
-    color: #91f505;
+    color: #f22d8c;
     width: 100%;
     margin: 0;
 }
@@ -172,23 +173,12 @@ h2 {
     margin: 0;
 }
 
-.project-content {
-    display: flex;
-    gap: 1rem;
+.project-description {
+    font-size: 2rem;
     width: 100%;
     box-sizing: border-box;
     color: #202020;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-}
-
-.project-description {
-    font-size: 2rem;
-    width: 50%;
-    box-sizing: border-box;
-    color: #202020;
-    font-weight: 300;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     display: block;
