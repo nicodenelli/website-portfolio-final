@@ -20,6 +20,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 #nav-list {
@@ -92,24 +94,24 @@ h1 {
     font-weight: 100;
 }
 
+.projects-container {
+    height: 1250px;
+    overflow-y: scroll;
+  }
+
 #projects {
     display: flex;
     align-items: center;
     height: 100%;
     width: 100%;
     justify-content: flex-start;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     flex-direction: column;
     margin: 0;
     padding: 4rem 4rem;
     text-align: center;
-    background-color: #000;
-    background-image: linear-gradient(
-        62deg,
-        #3a3d40 0%,
-        #181719 100%
-        );
+    background-color: #05f1f5;
 }
 
 .projects {
@@ -164,13 +166,12 @@ h2 {
     align-items: center;
     background-color: #05f1f5;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-    margin-bottom: 2rem;
+    margin: 70px 0px 180px 0px;
     max-width: 60rem;
     padding: 2rem;
     box-sizing: border-box;
     color: #202020;
     font-weight: 300;
-    margin: 0;
 }
 
 .project-description {
