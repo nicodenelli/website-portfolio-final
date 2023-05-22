@@ -12,6 +12,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 #nav-list {
@@ -38,8 +40,8 @@ a {
 
 }
 
-a:hover {
-    background-color: #b307f2;
+.nav:hover {
+    background-color: #3a3d40;
 }
 
 #welcome-section {
@@ -78,22 +80,30 @@ h1 {
 }
 
 #welcome-p2 {
-    color: rgb(247, 9, 211);
+    color: rgb(233, 114, 11);
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 100;
 }
 
+.projects-container {
+    height: 1250px;
+    overflow-y: scroll;
+  }
+
 #projects {
+     display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
     margin: 0;
     padding: 4rem 4rem;
     text-align: center;
-    background-color: #000;
-    background-image: linear-gradient(
-        62deg,
-        #3a3d40 0%,
-        #181719 100%
-        );
+    background-color: #21b3b6;
 }
 
 .projects {
@@ -127,25 +137,59 @@ h2 {
 }
 
 .project-img {
-    height: calc(100% - 4.8rem);
-    width: 100%;
-    object-fit: cover;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .project-title {
-    color: #91f505;
+    color: #f22d8c;
     width: 100%;
     margin: 0;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+.projects-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 6rem;
+    align-items: center;
+    background-color: #05f1f5;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    margin: 100px 0px 200px 0px;
+    max-width: 60rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: #202020;
+    font-weight: 300;
+}
+
+.project-description {
+    font-size: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: #202020;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #05f1f5;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-button:hover {
+    background-color: #ddd;
 }
 
 #contact {
@@ -165,7 +209,7 @@ h2 {
 }
 
 #contact-p {
-    color: rgb(247, 9, 211);
+    color: rgb(233, 114, 11);
     font-style: italic;
     font-weight: 100;
     text-align: center;
@@ -232,7 +276,7 @@ h2 {
 }
 
 #skills-p2 {
-    color: rgb(247, 9, 211);
+    color: rgb(233, 114, 11);
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
